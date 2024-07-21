@@ -12,7 +12,7 @@ use App\Core\Database;
 
 $routes = require('../app/routes/api.php');
 
-// Initialize the database connection (assuming Database class is set up accordingly)
+// Initialize the database connection
 $db = new Database();
 
 // Initialize the router with API routes
