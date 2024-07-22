@@ -15,6 +15,9 @@
 ## Introduction
 This project is a somewhat comprehensive portfolio dummy example of a bookstore web application built using HTML, CSS, JavaScript, PHP, and MySQL. it has almost all the functionality of a real e-commerce website but of course no payment gateaway or anything like that cause y'know "dummy" and all that, The project follows OOP and MVC best practices and includes a RESTful API for interacting with the bookstore's data.
 
+What i want to specifically point out is the no use of back-end frameworks or any kind dependencies because this is my version of the to-do app, which i wanted to test out
+what the max i can do with purely vanilla lang knowledge.
+
 ## Features
 - User authentication system with registration and login/logout
 - Cart system with CRUD implemented for cart items
