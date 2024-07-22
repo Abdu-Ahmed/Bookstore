@@ -44,12 +44,12 @@ DRY, OOP principles
 3. Interact with the API using tools like Postman or curl.
 
 ## API Endpoints
-- **GET public/api/books**: Fetch a list of books with pagination.
-- **GET public/api/books/{id}**: Fetch details of a specific book.
-- **POST public/api/users/register**: Register a new user.
-- **POST public/api/users/login**: Authenticate a user and receive a token.
-- **POST public/api/cart/add**: Add a book to the shopping cart.
-- **POST public/api/orders/place**: Place an order.
+- **GET bookstore/public/api/books**: Fetch a list of books with pagination.
+- **GET bookstore/public/api/books/{id}**: Fetch details of a specific book.
+- **POST bookstore/public/api/users/register**: Register a new user.
+- **POST bookstore/public/api/users/login**: Authenticate a user and receive a token.
+- **POST bookstore/public/api/cart/add**: Add a book to the shopping cart.
+- **POST bookstore/public/api/orders/place**: Place an order.
 // these are just the tip of the iceberg, for all endpoints check app/routes/api.php
 
 ## Contact
