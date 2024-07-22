@@ -13,12 +13,13 @@
 10. [Contact](#contact)
 
 ## Introduction
-This project is a comprehensive portfolio example of a bookstore web application built using HTML, CSS, JavaScript, PHP, and MySQL. The project follows OOP and MVC best practices and includes a RESTful API for interacting with the bookstore's data.
+This project is a somewhat comprehensive portfolio dummy example of a bookstore web application built using HTML, CSS, JavaScript, PHP, and MySQL. it has almost all the functionality of a real e-commerce website but of course no payment gateaway or anything like that cause y'know "dummy" and all that, The project follows OOP and MVC best practices and includes a RESTful API for interacting with the bookstore's data.
 
 ## Features
 - User authentication system with registration and login/logout
+- Cart system with CRUD implemented for cart items
+- Order processing system with confirmation and order details and order history pages
 - Book listing, specific book detail page and search functionality
-- Shopping cart(with CRUD) and order management & details
 - RESTful API for book data, user auth, admin panel with all the request method for CRUD operations
 - Admin dashboard for managing books, users, and orders
 
