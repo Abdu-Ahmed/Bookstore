@@ -36,7 +36,7 @@ DRY, OOP principles
 
 ## Installation
 1. Clone the repository:
-2. Set up your database and update the configuration file in `config/config.php`.
+2. Set up the database using the database file provided and update the configuration file in `config/config.php`.
 3. Start your local server and access the project via your browser.
 
 ## Usage
