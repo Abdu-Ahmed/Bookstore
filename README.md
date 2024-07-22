@@ -8,9 +8,7 @@
 5. [Installation](#installation)
 6. [Usage](#usage)
 7. [API Endpoints](#api-endpoints)
-8. [Contributing](#contributing)
-9. [License](#license)
-10. [Contact](#contact)
+8. [Contact](#contact)
 
 ## Introduction
 This project is a somewhat comprehensive portfolio dummy example of a bookstore web application built using HTML, CSS, JavaScript, PHP, and MySQL. it has almost all the functionality of a real e-commerce website but of course no payment gateaway or anything like that cause y'know "dummy" and all that, The project follows OOP and MVC best practices and includes a RESTful API for interacting with the bookstore's data.
