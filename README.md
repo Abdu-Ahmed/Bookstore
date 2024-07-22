@@ -1,8 +1,8 @@
 # Dummy Bookstore MVC / REST API
 
 ## Table of Contents
-1. [Introduction]
-2. [Features]
+1. [Introduction](#introduction)
+2. [Features](#features)
 3. [Technologies Used](#technologies-used)
 4. [Project Structure](#project-structure)
 5. [Installation](#installation)
