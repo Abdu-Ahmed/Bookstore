@@ -50,7 +50,7 @@ DRY, OOP principles
 - **POST public/api/users/login**: Authenticate a user and receive a token.
 - **POST public/api/cart/add**: Add a book to the shopping cart.
 - **POST public/api/orders/place**: Place an order.
-
+// these are just the tip of the iceberg, for all endpoints check app/routes/api.php
 
 ## Contact
 For any questions or suggestions, feel free to contact me at:
