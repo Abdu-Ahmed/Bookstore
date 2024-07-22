@@ -27,7 +27,7 @@ return [
     'DELETE /bookstoreremake/public/api/cart/{id}' => 'CartController@remove',
 
     // Order routes
-    'POST /bookstoreremake/public/api/orders' => 'OrderController@placeOrder',
+    'POST /bookstoreremake/public/api/order/place' => 'OrderController@placeOrder',
     'GET /bookstoreremake/public/api/orders/confirmation/{orderId}' => 'OrderController@orderConfirmation',
     'GET /bookstoreremake/public/api/orders' => 'OrderController@orderHistory',
     'GET /bookstoreremake/public/api/orders/{orderId}' => 'OrderController@orderDetails',
