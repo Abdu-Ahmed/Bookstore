@@ -1,6 +1,6 @@
 <?php
 session_start();
-define('BASE_URL', 'http://localhost/bookstoreremake/public');
+define('BASE_URL', 'http://localhost/bookstore/public');
 
 define('APP_ROOT', dirname(__DIR__));
 
