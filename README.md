@@ -40,9 +40,11 @@ DRY, OOP principles
 3. Start your local server and access the project via your browser.
 
 ## Usage
-1. Access the frontend via `http://localhost/bookstore(orwhatever your project root is/public/`.
+1. Access the frontend via `http://localhost/bookstore/public/`.
 2. Use the admin dashboard to manage books, users, and orders.
 3. Interact with the API using tools like Postman or curl.
+
+OR BETTER YET, CHECK IT OUT LIVE, HERE: https://abdubookstore.wuaze.com/
 
 ## API Endpoints
 - **GET bookstore/public/api/books**: Fetch a list of books with pagination.
