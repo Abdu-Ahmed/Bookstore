@@ -116,8 +116,12 @@ CSS STRUCTURE:
     line-height: 127%;
   }
   @media only screen and (max-width: 460px) {
+    .main-slider-pagination{
+      position: absolute;
+      top: 37.4rem !important;
+    }
     h1{
-      font-size: 3.1rem;
+      font-size: 2.3rem;
     }
     h2{
       font-size: 3rem;
@@ -372,6 +376,49 @@ aside {
   .swiper-next.testimonial-arrow-next.swiper-button-disabled{
     color: var(--gray-color-500);
   }
+  /* Responsive styles */
+@media (max-width: 768px) {
+  aside {
+      right: 20px;
+  }
+
+  .padding-small {
+      padding-top: 1em;
+      padding-bottom: 1em;
+  }
+  .padding-medium {
+      padding-top: 2em;
+      padding-bottom: 2em;
+  }
+  .padding-large {
+      padding-top: 4em;
+      padding-bottom: 4em;
+  }
+  .padding-xlarge {
+      padding-top: 6em;
+      padding-bottom: 6em;
+  }
+
+  .margin-xlarge {
+      margin-top: 6em;
+      margin-bottom: 6em;
+  }
+
+  .btn {
+      font-size: 1rem;
+  }
+
+  .btn-dark,
+  .btn-primary {
+      padding: 8px 16px;
+  }
+
+  .swiper-buttons .swiper-prev,
+  .swiper-buttons .swiper-next {
+      padding: 12px;
+      bottom: 30px;
+  }
+}
   /*----------------------------------------------*/
   /* 3. SITE STRUCTURE */
   /*----------------------------------------------*/
@@ -620,6 +667,116 @@ aside {
   .social-links li {
     padding-right: 30px;
   }
+  /* Responsive styles */
+@media (max-width: 768px) {
+  /* Header */
+  .cart,
+  .account,
+  .search,
+  .logo,
+  .category,
+  .shop,
+  .orders {
+      left: 10px;
+  }
+
+  /* Search Bar */
+  #search-bar input[type="text"] {
+      width: 150px;
+  }
+
+  .navbar-toggler svg.navbar-icon {
+      width: 40px;
+      height: 40px;
+  }
+  .navbar-nav .nav-item a.nav-link {
+      margin-right: 20px;
+      margin-left: 20px;
+  }
+
+  /* Slider */
+  .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+      width: 14px;
+      height: 14px;
+      margin: 0 8px !important;
+  }
+
+  /* Product */
+  .product-store .product-card .cart-concern {
+      bottom: 80px;
+  }
+
+  /* Video */
+  .modal-dialog {
+      max-width: 100%;
+      height: auto;
+  }
+
+  /* FAQs */
+  .accordion-button {
+      font-size: 1rem;
+  }
+
+  /* Footer */
+  .social-links li {
+      padding-right: 15px;
+  }
+}
+
+@media (max-width: 564px) {
+  /* Header */
+  .cart,
+  .account,
+  .search,
+  .logo,
+  .category,
+  .shop,
+  .orders {
+      left: 0;
+  }
+
+  /* Search Bar */
+  #search-bar input[type="text"] {
+      width: 120px;
+  }
+
+  .navbar-toggler svg.navbar-icon {
+      width: 30px;
+      height: 30px;
+  }
+  .navbar-nav .nav-item a.nav-link {
+      margin-right: 10px;
+      margin-left: 10px;
+  }
+
+  /* Slider */
+  .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+      margin: 0 5px !important;
+  }
+
+  /* Product */
+  .product-store .product-card .cart-concern {
+      bottom: 60px;
+  }
+
+  /* Video */
+  .modal-dialog {
+      max-width: 90%;
+      height: auto;
+  }
+
+  /* FAQs */
+  .accordion-button {
+      font-size: 0.9rem;
+  }
+
+  /* Footer */
+  .social-links li {
+      padding-right: 10px;
+  }
+}
   
   /* 4. PAGES
   /*----------------------------------------------*/
