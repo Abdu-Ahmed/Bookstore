@@ -118,16 +118,22 @@ CSS STRUCTURE:
   @media only screen and (max-width: 460px) {
     .main-slider-pagination{
       position: absolute;
-      top: 37.4rem !important;
+      top: 33.4rem !important;
     }
     h1{
-      font-size: 2.3rem;
+      font-size: 2.6rem;
+      text-align: center;
+
     }
     h2{
       font-size: 3rem;
     }
     h3{
       font-size: 1.8rem;
+    }
+    .book-prdct {
+      display: flex;
+      width: 95%;
     }
   }
   p {
@@ -345,7 +351,7 @@ aside {
     background: none;
     transition: 0.3s ease;
     position: relative;
-    bottom: 50px;
+    top: 0px;
   }
   .swiper-prev:hover,
   .swiper-next:hover{
