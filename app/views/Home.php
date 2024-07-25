@@ -7,7 +7,7 @@
  
     <!-- navigation -->
     <?php require_once 'layout/nav.php'; ?>
-    <!-- Greetomg Section -->
+    <!-- Greeting Section -->
     <div class="container mt-5">
     <h2 class="display-5">Welcome to Abdu's Bookstore!</h2>
     <?php if ($isLoggedIn): ?>
@@ -141,23 +141,23 @@
       <?php foreach ($randomBooks as $book): ?>
         <div class="swiper-slide">
           <div class="product-card">
-            <div class="image-holder">
-              <img src="<?php echo htmlspecialchars($book['book_image']); ?>" alt="product-item" class="img-fluid">
-            </div>
+                          <div class="offset-md-1 col-md-5">
+                                <img src="<?php echo $book['book_image']; ?>" alt="product-img" class="img-fluid book-prdct mx-auto">
+                            </div>
             <div class="card-detail text-center pt-3 pb-2">
               <h5 class="card-title fs-4 text-uppercase m-0">
                 <a href="single-product.html"><?php echo htmlspecialchars($book['book_title']); ?></a>
               </h5>
               <span class="item-price text-primary fs-4">$<?php echo htmlspecialchars($book['book_price']); ?></span>
               <div class="cart-button mt-1">
-              <?php if ($isLoggedIn): ?>
-                                                    <form action="<?= BASE_URL . '/cart/add/' . $book['book_id'] ?>" method="POST" class="d-inline">
-                                                        <input type="hidden" name="quantity" value="1">
-                                                        <button type="submit" class="btn">Add to cart</button>
-                                                    </form>
-                                                <?php else: ?>
-                                                    <p><a href="<?= BASE_URL . '/login' ?>" class="btn btn-dark">Log in</a> to add this book to your cart.</p>
-                                                <?php endif; ?>
+                <?php if ($isLoggedIn): ?>
+                  <form action="<?= BASE_URL . '/cart/add/' . $book['book_id'] ?>" method="POST" class="d-inline">
+                    <input type="hidden" name="quantity" value="1">
+                    <button type="submit" class="btn">Add to cart</button>
+                  </form>
+                <?php else: ?>
+                  <p><a href="<?= BASE_URL . '/login' ?>" class="btn btn-dark">Log in</a> to add this book to your cart.</p>
+                <?php endif; ?>
               </div>
             </div>
           </div>
