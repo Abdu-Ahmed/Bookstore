@@ -134,6 +134,7 @@ CSS STRUCTURE:
     .book-prdct {
       display: flex;
       width: auto;
+      padding: 10px;
     }
   }
   p {
