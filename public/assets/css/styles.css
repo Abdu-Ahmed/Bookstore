@@ -133,7 +133,7 @@ CSS STRUCTURE:
     }
     .book-prdct {
       display: flex;
-      width: 95%;
+      width: auto;
     }
   }
   p {
